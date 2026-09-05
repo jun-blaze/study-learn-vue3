@@ -1,35 +1,32 @@
-# study-learn-vue3
+# Vue 3 Fundamentals
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue 3의 컴포넌트 구조와 Composition API를 작은 예제로 익히는 개인 학습 저장소다.
 
-## Recommended IDE Setup
+## 학습 범위
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+- Options API와 Composition API 비교
+- 컴포넌트 props와 이벤트
+- slot과 동적 컴포넌트
+- lifecycle hook
+- template ref와 provide/inject
+- Axios를 이용한 HTTP 요청
 
-## Customize configuration
+## 기술 구성
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Vue 3, Vite, Axios, Bootstrap을 사용한다. 예제별 컴포넌트는 `src/components/`, 강의 단위 기록은 `src/lectures/`에 있다.
 
-## Project Setup
+## 실행
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+```bash
+npm ci
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 검증
 
-```sh
+```bash
+npm run lint
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+이 저장소는 기능 완성형 애플리케이션보다 Vue 문법과 컴포넌트 동작을 확인하는 데 목적이 있다.
